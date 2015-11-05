@@ -1,0 +1,63 @@
+/*
+   This pianoMenu was made by Alina Tuchołka - alinatucholka.pl
+   It's free for private use
+*/
+body,
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    background: url(vertical_cloth.png);
+    background-position: center;
+    background-size: contain;
+}
+
+h1 {
+    color: white;
+}
+
+#pianoMenu {
+    width: 20%;
+    height: 200px;
+    display: block;
+    float: left;
+    margin-left: -10px;
+    margin-top: 120px;
+    padding: 0;
+    text-align: right;
+    position: fixed;
+}
+
+#pianoMenu:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.key {
+    width: 250px;
+    height: 35px;
+    padding-top: 8px;
+    padding-right: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.key:hover {
+    opacity: 0.5;
+    padding-left: 4px;
+}
+
+.el {
+    width: 70%;
+    float: right;
+    color: white;
+    text-align: justify;
+}
+
+.el p {
+    font-size: 30px;
+}
